@@ -1,0 +1,32 @@
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int quad(int a,int b)
+{
+    if(a<0 && b<0)
+    {
+        cout<<"4 quadrant";
+    }
+    else if(a>=0 && b>=0)
+    {
+
+        cout<<"1 quadarant";
+    }
+    else if(a<0 &&b>=0)
+    {
+
+        cout<<"2 quadrant";
+    }
+    else{
+        cout<<"3 quadrant";
+    }
+}
+
+
+int main()
+{
+    int a,b;
+    cin>>a>>b;
+    quad(a,b);
+}

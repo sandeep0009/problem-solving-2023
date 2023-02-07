@@ -1,0 +1,31 @@
+#include <bits/stdc++.h>
+using namespace std;
+int roots(int b,int a,int c)
+{
+    int x;
+    x=pow(b,2)-4*a*c;
+    if(x<0)
+    {
+        cout<<"roots are imaginary";
+    }
+    else if(x==0)
+    {
+
+        cout<<"roots are equal";
+    }
+    else
+    {
+        cout<<"root are real";
+    }
+}
+
+int main()
+{
+
+int b,a,c;
+cin>>a>>b>>c;
+roots(a,b,c);
+
+
+
+}

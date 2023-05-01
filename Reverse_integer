@@ -5,7 +5,7 @@ class Solution {
         while(x!=0)
         {
             int rem=x%10;
-            if(ans>Integer.MAX_VALUE/10 || ans<Integer.MIN_VALUE/10)
+            if(ans>Integer.MAX_VALUE/10 || ans<Integer.MIN_VALUE/10)//this will check when the integer is out of range and divide the max and min value with 10 because to make integer in the range.
             {
                 return 0;
             }
